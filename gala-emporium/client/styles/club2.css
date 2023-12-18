@@ -1,0 +1,108 @@
+.club-info > h2 {
+  font-size: 4em;
+  line-height: 1.2;
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+  background-image: url('../images/titlebackground.jpg');
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: moveBackground 50s linear infinite;
+}
+
+@keyframes moveBackground {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+
+.event1-p,
+.event2-p,
+.event3-p{
+  font-size: 20px;
+  margin-bottom: 30px;
+  border-style: solid;
+  display: flex;
+  color: black;
+}
+
+.event1,
+.event2,
+.event3
+{
+  height: 800px;
+  width: 400px;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 40px;
+  border: double;
+  border-color: red;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: black;
+}
+.event-details>p{
+  color: black;
+  font-size: 20px;
+  background-color:lightcoral;
+  border: double;
+  border-color: black;
+  display:flex ;
+  
+}
+.event img {
+  max-width: 100%;
+  display: flex;
+  margin: 10px auto;
+  border-radius: 1px;
+}
+
+ /*Storlek på bilderna */
+.photography,
+.demonstrations,
+.abstract{
+  min-width: 300px;
+  min-height: 150px;
+}
+
+.video-container{
+  display: flex;
+}
+
+.video {
+  min-width: 600px;
+  min-height: 400px;
+  margin: 15px;
+  border-radius: 40px;
+  border: double;
+  border-color: red;
+}
+
+.video-text{
+  min-width: 600px;
+  min-height: 400px;
+  margin: 15px;
+  padding: 60px 10px 40px 10px;
+  background-color: white;
+  border-radius: 40px;
+  border: double;
+  border-color: red;
+  color: black;
+}
+
+.video-text>p{
+  color: black;
+}
+
+.reservation-button {
+  cursor: pointer; 
+  padding: 10px 20px;
+  background-color:purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}

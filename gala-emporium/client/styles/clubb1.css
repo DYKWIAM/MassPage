@@ -1,0 +1,136 @@
+.wrapper {
+  width: 100%;
+  padding: 1vw 1vw;
+}
+.flex-container>.one1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  flex-wrap: wrap;
+  flex-flow: row;
+  width: 100%;
+  height: 100%;
+  gap: 1rem;
+}
+
+
+
+
+.wrapper>.flex-container {
+  display: flex;
+  background-color: black;
+  flex-wrap: wrap;
+  flex-flow: row;
+  width: 100%;
+  height: 100%;
+  gap: 1rem;
+}
+
+
+
+.box {
+  height: 100%;
+  width: 100%;
+  flex-grow: 1;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+}
+
+div>.box>.one {
+  background-color: rgb(128, 4, 4);
+  color: black;
+  width: 100%;
+  height: 100%;
+}
+
+
+div>.club1-h1 {
+  background-color:rgb(48, 2, 2);
+  padding: 2%;
+  color: white;
+  text-align: center;
+  font-family:'Lucida San';
+  color: white;
+  text-align: center;
+
+}
+
+ div>#loginLink {
+
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: none;
+    height: 5%;
+    background-color: rgb(128, 4, 4);
+    color:white;
+    border: 2px solid white;
+   
+}
+
+
+
+.club1-h2 {
+  padding: 0 1vw;
+  color: white;
+  text-align: center;
+  font-family: 'Lucida San';
+}
+
+.club1-h4{
+
+  padding: 0 1vw;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida San';
+
+}
+
+
+
+.club1-h5 {
+  text-align: center;
+ 
+  padding: 2%;
+}
+
+.club1-p {
+  padding: 0 1vw;
+  font-size: 2vh;
+  color: white;
+}
+
+div>.box>.two {
+  background-color: rgb(128, 4, 4);
+  color: red;
+}
+
+
+div>.box>.three {
+  background-color: rgb(128, 4, 4);
+  color: black;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+
+@media screen and (max-width: 1400px) {
+  .box {
+    height: 900px;
+
+  }
+}

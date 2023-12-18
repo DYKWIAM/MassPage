@@ -1,0 +1,96 @@
+#section-4-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    width: 100%;
+
+}
+#section-4-calender{
+    width: 50%;
+    margin: 2rem;
+  }
+  #club-4-eventList{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing:10px;
+  
+  }
+  #club-4-eventList>thead>tr{
+   background-color: #CD2827;
+  }
+  #club-4-eventList>thead>tr>th{
+    padding: 1rem;
+  }
+  
+  #club-4-eventList>tbody>tr>td{
+    padding: 1rem;
+  }
+  #club-4-eventList>tbody>:nth-child(even) {
+    background-color: #333333;
+    color: white; 
+  }
+  
+  #club-4-eventList>tbody>tr:nth-child(odd) {
+    background-color: #1A1A1A;
+    color: white; 
+  }
+
+#section-4-event{
+    align-items: start;
+    padding: 2rem;
+    width: 50%;
+}
+
+.event-4-container{
+    border-radius: 10px;
+    filter: drop-shadow(0 5px 10px 0 #ffffff);
+    width:100%;
+    height: auto;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in;
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  
+  .event-4-container::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -15px;
+    right: -15px;
+    background: #5852b3;
+    height:100%;
+    width: 25px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .event-4-container:hover::before{
+      transition-delay:0.2s ;
+  
+    transform: scale(80);
+  }
+  
+  .event-4-container:hover{
+      color: #ffffff;  
+  }  
+  .event-4-container p{
+      padding: 10px 0;
+  }
+  .section-4-img-container{
+    width: 30%;
+    margin: 1rem;
+  }
+  .section-4-img-container>img{
+    width: 100%;
+  }
+  .section-4-event-summarize{
+    margin-left: 1rem;
+    padding-top: 1rem;
+  }
+  

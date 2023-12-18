@@ -1,0 +1,120 @@
+#section-1-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(44, 123, 254,0.5)
+}
+#section-1-info{
+    width: 50%;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+  .column {
+    width: 40%;
+    padding: 0 1rem 1rem 1rem;
+    text-align: center;
+    margin: 1rem;
+  }
+  .card {
+    width: 100%;
+    padding: 2em 1.5em;
+    background: linear-gradient(#ffffff 50%, #2c7bfe 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+    
+  }
+  .section-3-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1f194c;
+    margin: 1em 0;
+  }
+  .card>p {
+    color: #575a7b;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .icon-wrapper {
+    margin: auto;
+    font-size:2rem; 
+    color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+ .image{
+    width: 10rem;
+    height:10rem;
+    border-radius: 50%;
+  }
+  .card:hover {
+    background-position: 0 100%;
+  }
+  .card:hover  {
+    background-color: #ffffff;
+    color: #2c7bfe;
+  }
+  .card:hover h3 {
+    color: #ffffff;
+  }
+  .card:hover p {
+    color: #f0f0f0;
+  }
+#section-1-table{
+    width: 50%;
+    margin: 2rem 1rem;
+}
+#section-1-calender{
+    width: 50%;
+    margin: 1rem;
+  }
+  #club-1-eventList{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing:10px;
+  
+  }
+  #club-1-eventList>thead>tr{
+   background-color: #093a32;
+   color: white;
+  }
+  #club-1-eventList>thead>tr>th{
+    padding: 1rem;
+  }
+  
+  #club-1-eventList>tbody>tr>td{
+    padding: 1rem;
+  }
+  #club-1-eventList>tbody>:nth-child(even) {
+    background-color: #3b4cad;
+    color: white; 
+  }
+  
+  #club-1-eventList>tbody>tr:nth-child(odd) {
+    background-color: #417BFF;
+    color: white; 
+  }
+  .section-1-event-summarize>*{
+    display: inline-block;      
+    padding: 1vw;
+    border-radius: 5px;    
+    background-color: rgba(28, 76, 121, 0.667);
+    color: rgb(255, 255, 255);    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }

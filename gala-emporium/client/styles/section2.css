@@ -1,0 +1,82 @@
+#section-2-content{
+    width: 100%;
+    height: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(84,9,121,1) 47%, rgba(222,7,156,1) 100%);
+    display: flex;
+    justify-content: space-around;
+}
+#section-2-info{
+    width: 50%;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.section-2-event-container{
+    width: 35%;
+    padding: 2rem;
+    border-radius: 5px;
+    margin: 1rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section-2-event-container>img{
+    width: 100%;
+}
+.section-2-carousel-button{
+    padding: 1rem 2rem;
+    background-color:cadetblue ;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+
+}
+.section-2-carousel-button:hover{
+    background-color: blue;
+    color: white;
+}
+
+#section-2-table{
+    width: 50%;
+    margin: 1rem;
+}
+#section-2-calender{
+    width: 50%;
+    margin: 1rem;
+  }
+  #club-2-eventList{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing:10px;
+  
+  }
+  #club-2-eventList>thead>tr{
+   background-color: #27cd8d;
+  }
+  #club-2-eventList>thead>tr>th{
+    padding: 1rem;
+  }
+  
+  #club-2-eventList>tbody>tr>td{
+    padding: 1rem;
+  }
+  #club-2-eventList>tbody>:nth-child(even) {
+    background-color: #333333;
+    color: white; 
+  }
+  
+  #club-2-eventList>tbody>tr:nth-child(odd) {
+    background-color: #1A1A1A;
+    color: white; 
+  }
+  .section-2-event-summarize>*{
+    display: inline-block;      
+    padding: 1vw;
+    border-radius: 5px;    
+    background-color: rgba(1, 12, 22, 0.667);
+    color: rgb(255, 255, 255);    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }

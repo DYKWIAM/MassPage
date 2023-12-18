@@ -1,0 +1,366 @@
+#club3-page {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#title {
+  display: flex;
+  justify-content: space-between;
+}
+
+#club3-page header {
+  background-color: #cd2827;
+  padding: 20px;
+  text-align: center;
+}
+
+#club3-page h1 {
+  color: #ff4500;
+}
+
+#club3-page .flex-item {
+  flex: 1;
+  margin-bottom: 3px;
+  margin-top: 0;
+/*   padding: 2%;
+ */  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+#club3-page h2 {
+  color: #ddd;
+  font-size: xxx-large;
+}
+
+#club3-page h3 {
+  color: #ddd;
+  font-size: xx-large;
+}
+
+#club3-page h4 {
+  margin-top: 0px;
+}
+
+#club3-page p:not(.reservationCount8):not(.reservationCount9):not(.reservationCount10):not(#club3-page .footer div p) {
+  color: #ddd;
+  font-size: x-large;
+}
+
+#club3-page .image-box {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#club3-page .image-box img {
+  width: 95%;
+  border-radius: 8px;
+}
+
+
+#club3-page .video-box {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+#club3-page .video-box iframe {
+  position: absolute;
+  width: 95%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.club3Calendarium {
+  background-color: #1a1a1a;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-item .club3Calendarium ul {
+  list-style-type: none;
+  padding: 0;
+  width: 90%;
+  height: fit-content;
+}
+
+
+.flex-item .club3Calendarium li {
+  display: flex;
+  margin-top: 1px;
+
+  border-bottom: .0625rem solid #2d2d2d;
+  width: 100%;
+  height: fit-content;
+}
+
+.flex-item .club3Calendarium ul :first-child {
+  margin-top: 5px;
+}
+
+.reservationCount8,
+.reservationCount9,
+.reservationCount10 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  align-self: flex-end;
+  font-size: small;
+}
+
+.flex-item .club3Calendarium li strong {
+  margin-right: 5%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  width: fit-content;
+  height: 20px;
+}
+
+.flex-item .club3Calendarium li strong:first-child {
+  margin-left: 1%;
+  margin-right: 5%;
+  width: 50px;
+}
+
+.flex-item .club3Calendarium li:last-child {
+  border-bottom: none;
+  margin-bottom: 0px;
+}
+
+.flex-item .club3Calendarium li strong {
+  color: #ffffff;
+  font-size: medium;
+  text-align: center;
+}
+
+.flex-item .club3Calendarium {
+  border-bottom: .0625rem solid #2d2d2d;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+}
+
+.reservationDiv {
+  margin-left: auto;
+  margin-right: 1%;
+  margin-top: 1%;
+}
+
+#club3-page .reservationButton {
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  margin-left: 0px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: medium;
+  color: white;
+  background-color: #cd2827;
+  width: 100%;
+
+
+}
+
+#club3-page .footer {
+  flex: 1;
+  margin-bottom: 7px;
+  margin-top: 0;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  height: fit-content;
+}
+
+#club3-page .textlinks {
+  flex: 1;
+  display: flex;
+  margin-top: 0;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  height: fit-content;
+}
+
+#club3-page .textlinks div {
+  width: 25%;
+  height: 200px;
+  border-right: .0625rem solid #000000;
+  text-align: center;
+}
+
+#club3-page .footer div:last-child {
+  border-right: none;
+}
+
+#club3-page .textlinks div p {
+  font-size: small;
+  display: flex;
+
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #333;
+  width: 100%
+}
+
+ul li {
+  display: flex;
+  flex-direction: row;
+  background-color: #333;
+  width: 100%;
+  justify-content: right;
+
+}
+
+
+ul li a {
+  display: flex;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: block;
+  text-align: center;
+  margin: 0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(0deg, #d1cdcd, #d1cdcd);
+  transition: .5s;
+}
+
+ul li a .fab {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(0deg, #b9b4b4, #b9b4b4);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size: 24px;
+  color: #262626;
+  transition: .5s;
+}
+
+ul li:nth-child(1) a:hover .fab {
+  color: #3b5998;
+}
+
+ul li:nth-child(2) a:hover .fab {
+  color: #00aced;
+}
+
+ul li:nth-child(3) a:hover .fab {
+  color: #dd4b39;
+}
+
+ul li:nth-child(4) a:hover .fab {
+  color: #007bb6;
+}
+
+ul li:nth-child(5) a:hover .fab {
+  color: #e4405f;
+}
+
+@media screen and (max-width: 792px) {
+
+  #club3-page h2 {
+    color: #ddd;
+    font-size: xx-large;
+  }
+
+  #club3-page .footer {
+    flex-direction: column;
+  }
+
+  #club3-page .textlinks {
+    flex-direction: column;
+
+  }
+
+  #club3-page .footer div {
+    width: 100%;
+    height: 200px;
+    border-bottom: .0625rem solid #000000;
+    border-right: none;
+    text-align: center;
+  }
+
+
+  .flex-item .club3Calendarium ul {
+    list-style-type: none;
+    padding: 0;
+    width: 90%;
+  }
+
+  #club3-page .footer div:last-child {
+    border-bottom: none;
+  }
+
+  .flex-item .club3Calendarium li {
+    flex-direction: column;
+  }
+
+  .flex-item .club3Calendarium li strong {
+    width: fit-content;
+    font-size: small;
+    text-align: left;
+    margin-left: 0px;
+  }
+
+  .flex-item .club3Calendarium li strong:first-child {
+    margin-left: 0px;
+  }
+
+  #club3-page .textlinks :not(:first-child) {
+    margin-top: 27px;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  li {
+    padding: 2%;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+  ul li a {
+    width: 40px;
+    height: 40px;
+    margin: 0 2px;
+  }
+
+  ul li a .fab {
+    line-height: calc(30px - 2px);
+    font-size: 15px;
+  }
+}

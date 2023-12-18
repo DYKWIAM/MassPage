@@ -1,0 +1,24 @@
+#eventForm,#reservationUpdateForm{
+    max-width: 100%;
+    background-color: darkgray;
+    padding: 1rem;
+
+}
+#reservationUpdateForm>input,textarea,#eventForm>input,textarea{
+    width: 100%;    
+}
+#reservationUpdateForm>label,#eventForm>label{
+   text-align: left;    
+}
+#eventForm>select,#reservationUpdateForm>select{
+width: 100%;    
+font-size: large;
+ }
+ .formFields>label{
+    width: 100%;
+    display: inline-block;
+ }
+ .formFields>input,textarea,select{
+    width: 100%;
+    display: inline-block;
+ }

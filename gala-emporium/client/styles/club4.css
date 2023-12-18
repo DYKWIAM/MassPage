@@ -1,0 +1,371 @@
+
+
+
+
+.stuff{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  /*overflow-y: hidden;*/
+}
+
+.layout .pages{
+  
+  scroll-snap-align: start;
+}
+
+#site1{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),transparent),url(../images/pic/bg.png);
+  background-size: cover;
+  background-position: center;
+}
+#site2{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(3, 3, 3, 0.3),transparent),url(../images/pic/2.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+
+}
+
+#site3{
+  padding:110px ;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(1, 10, 6, 0.3),transparent),url(../images/pic/3.png);
+  background-size: cover;
+  background-position: center;
+ 
+  justify-content: center;
+}
+#site3>footer{
+  align-self: flex-end;
+  
+}
+
+#site1{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  align-content: flex-start;
+  font-size: 2em;
+  
+}
+
+#site1 > .logoHome{
+  top: 8px;
+  left: 16px;
+  position: fixed;
+  padding-right: 30px;
+  margin: 25px;
+}
+#site1 > ul{
+  top: 8px;
+  right: 16px;
+  position: fixed;
+  padding-right: 30px 0;
+  margin: 25px;
+  
+  
+}
+.logoHome, #site1 > ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 30px;
+  flex: 1;
+}
+
+.logoHome, #site1 > ul li a{
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+
+}
+#site1 > ul li a::after{
+  content: '';
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  transition: width 0.3s;
+}
+
+.logoHome::after{
+  content: '';
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  transition: width 0.3s;
+}
+
+#site1 > ul li a:hover::after{
+  width: 50%; 
+}
+.logoHome:hover::after{
+  width: 50%;
+}
+
+
+.text-box{
+  color: #fff;
+  position: absolute;
+  bottom: 5%;
+  margin: 45px;
+}
+.text-box p{
+  font-size: 50px;
+  font-weight: 600;
+}
+.text-box h3{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.text-box h1{
+  font-size: 190px;
+  line-height: 160px;;
+  margin-left: -10px; 
+  font-weight: bold;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background: url(../images/pic/bg.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+
+@keyframes back{
+  100%{
+    background-position: 2000px 0;
+  }
+}
+.text-box .row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  scroll-snap-align: none;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.text-box a{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border: 2px solid #fff;
+  display: flex;
+  align-items: center;
+  
+}
+
+.toFixedSocialIcons{
+  position: absolute;
+  right: 3%;
+  bottom: 9%;
+}
+
+.social-icon{
+  position: fixed;
+  right: 3%;
+  bottom: 9%;
+}
+.social-icon img{
+  width: 55px;
+  display: block;
+  margin: 11px -5px;
+}
+
+
+.page2main{
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.page2main > div{
+ 
+  
+  color: rgb(231, 225, 225);
+  font-weight: 700;
+  font-size: 2em;
+  background-color: rgba(7, 7, 8, 0.7);
+
+}
+/**********Page 2*************************/
+
+.slideshow-container>.prev, .next{
+  margin-left: 22px;
+  cursor: pointer;
+}
+.mySlides{
+  width: 650px;
+  height: 650px;
+  
+}
+.textOPera{
+    padding: 100px;
+    font-family: 'Tangerine';font-size: 32px;
+    width: 650px;
+    height: 755px;
+
+}
+.mySlides> img{
+  width: 650px;
+  height: 650px;
+  object-fit: contain;
+}
+
+.buttoncontainer{
+  border: 1 solid #080807;
+  background-color: rgba(235, 217, 217, 0.342);
+  font-family: "Times New Roman", Times, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  
+  gap: 10px;
+  padding: 8px;
+}
+
+
+
+
+.buttoncontainer div {
+  --b: 3px;   /* border thickness */
+  --s: .15em; /* size of the corner */
+  --color: #f1f1f1;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.buttoncontainer div:hover,
+.buttoncontainer div:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.buttoncontainer div:active {
+  background: var(--color);
+  color: #f5f2f2;
+}
+
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  
+}
+
+section {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+
+img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(1, 16, 20, 0.5);
+}
+
+.sub{
+  margin: 20px;
+  vertical-align: text-top;
+  display: inline-block;
+  width:160px;
+  height:140px;
+  border: 0px solid green;
+}
+
+footer {
+  background-color: #835a5a;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+/* Additional styling for better visibility */
+.footer-section {
+  padding: 10px;
+  text-align: center;
+  flex: 1;
+  margin: 10px;
+  border: 2px solid red;
+}
+
+.copy{
+  display:flex;
+  text-align: end;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+
+
+
+@media (max-width: 768px) {
+  *{
+      flex-direction: column;
+  }
+}

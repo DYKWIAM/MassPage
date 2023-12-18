@@ -1,0 +1,124 @@
+#section-3-content{
+  width: 100%;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+#section-3-info{
+  width: 50%;
+  margin: 1rem;
+}
+#section-3-info>h4{
+  margin-top: 0;
+}
+
+#section-3-info>h1{
+  color: #000;
+  width: 100%;
+  
+}
+
+.section-3-event{
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 2rem 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.section-3-event>img{
+  margin-top: 1rem;
+  width: 75%;
+  border: none;
+  padding: 0;
+}
+.section-3-event-summarize{
+  padding: 2rem;
+  color: #1A1A1A;
+}
+#carousel{
+  width:100%;
+  position: relative;
+  height: auto;
+  border-radius: 5px;
+}
+
+.carousel-slide {
+  display: none;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.section-3-carousel-button{
+  background-color: #1A1A1A;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: large;
+  color: white;
+
+}
+.section-3-carousel-button:hover{
+  background-color:#333333;
+
+
+}
+#slide1 { background-color: #4CAF50; }
+#slide2 { background-color: #2196F3; }
+#slide3 { background-color: #f44336; }
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  transform: translateY(-50%);
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+#section-3-calender{
+  width: 50%;
+  margin: 1rem;
+}
+#club-3-eventList{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing:10px;
+
+}
+#club-3-eventList>thead>tr{
+ background-color: #CD2827;
+}
+#club-3-eventList>thead>tr>th{
+  padding: 1rem;
+}
+
+#club-3-eventList>tbody>tr>td{
+  padding: 1rem;
+}
+#club-3-eventList>tbody>:nth-child(even) {
+  background-color: #333333;
+  color: white; 
+}
+
+#club-3-eventList>tbody>tr:nth-child(odd) {
+  background-color: #1A1A1A;
+  color: white; 
+}
+.section-3-event-summarize>*{
+  display: inline-block;      
+  padding: 1vw;
+  border-radius: 5px;    
+  background-color: rgba(1, 12, 22, 0.667);
+  color: rgb(255, 255, 255);  
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}

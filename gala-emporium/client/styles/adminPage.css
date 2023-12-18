@@ -1,0 +1,22 @@
+h1{
+    margin: 0;
+    background-color: white;
+}
+#adminPageConntent{
+    padding: 3rem;
+    display: block;
+   
+}
+#formAndEvenListAdminPage{
+    display: flex;
+    justify-content: space-between;
+}
+#adminPageFormBox{
+    width: 30%;
+}
+#adminPageEventBox{
+    width: 65%;
+}
+#adminPageReservationBox{
+    width: 65%;
+}

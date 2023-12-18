@@ -1,0 +1,38 @@
+main{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#form-div{
+  width: 40%;
+}
+#form-div>form{
+    margin: 3rem;
+    background: rgba(206, 39, 39,0.8);
+    padding: 1rem;
+    color: #ffffff;
+    border: 1px solid #666;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
+#form-div>form>input{
+    display:block;
+    border: 1px solid darkblue;    
+    padding: 0.5rem;
+    width: 90%;
+    
+
+}
+#loginButton  {
+  background-color: rgb(9, 31, 49);
+  font-size: large;
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+  margin: 1rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+
+}
